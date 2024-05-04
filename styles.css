@@ -5,11 +5,12 @@
     font-family: "Roboto", sans-serif;
     overflow-x: hidden;
 
-    
+
     ::-webkit-scrollbar {
         width: 6px;
         background: #cbe86b;
     }
+
     ::-webkit-scrollbar-thumb {
         background: #2d2d2e;
         border-radius: 5px;
@@ -32,11 +33,11 @@
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgba( 10, 8 , 2, 0.2);
+    background-color: rgba(10, 8, 2, 0.2);
 
 }
 
- .rvo-dev{
+.rvo-dev {
     font-size: 42px;
     font-weight: 600;
     color: #88eed0;
@@ -70,6 +71,7 @@ span {
     opacity: 0.6;
     text-shadow: 0px 0px 10px #ffffff;
 }
+
 .button-menu:active {
     opacity: 0.8;
 }
@@ -122,7 +124,7 @@ h2 {
     gap: 130px;
     margin-top: 100px;
     padding: 80px 0px;
-    background-color: rgba( 10, 8 , 2, 0.2);
+    background-color: rgba(10, 8, 2, 0.2);
 }
 
 .div-logo {
@@ -174,11 +176,12 @@ p {
 
 .sobre-mim {
     width: 60%;
-    height: 45vh;
+    height: 50vh;
 }
 
 .foto-rodrigo-div {
     width: 30%;
+    height: auto;
     padding-bottom: 130px;
     display: flex;
     justify-content: center;
@@ -266,7 +269,7 @@ h5 {
     transition: 1s;
 }
 
-.form input{
+.form input {
     width: 400px;
     height: 40px;
     border-radius: 10px;
@@ -317,4 +320,88 @@ button:active {
     position: fixed;
     top: 0;
     visibility: hidden;
+}
+
+
+@media screen and (max-width: 1410px) {
+    h1 {
+        color: #f2e9e1;
+        font-size: 40px;
+    }
+
+    h2 {
+        color: #cbe86b;
+        font-size: 30px;
+    }
+
+    .logo-duvidas {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .foto-rodrigo-div {
+        width: 30%;
+        padding-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        width: 60%;
+        height: 550px;
+        padding: 80px 200px;
+        background-color: #cbe86b;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        bottom: -540px;
+        border-radius: 50px;
+        transition: 1s;
+    }
+
+    .form input {
+        width: 300px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #2d2d2e;
+        outline: none;
+        margin: 20px 0px;
+        padding-left: 10px;
+    }
+
+    textarea {
+        width: 300px;
+        height: 60px;
+        border-radius: 10px;
+        border: 1px solid #2d2d2e;
+        outline: none;
+        margin: 20px 0px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    button {
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #2d2d2e;
+    }
+
+    button:hover {
+        box-shadow: 0px 0px 10px #2d2d2e;
+    }
+
+    button:active {
+        opacity: 0.7;
+    }
+
+    .logo-email {
+        width: 20%;
+    }
+
 }
