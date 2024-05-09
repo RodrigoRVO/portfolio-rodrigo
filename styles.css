@@ -230,6 +230,10 @@ li:hover {
     box-shadow: 0px 0px 10px #cbe86b;
 }
 
+a {
+    text-decoration: none;
+}
+
 .projeto-1 {
     width: 100%;
     height: auto;
@@ -528,7 +532,7 @@ button:active {
     .sobre-mim-div {
         display: flex;
         flex-direction: column;
-        height: 130vh;
+        height: 150vh;
     }
 
     .sobre-mim {
