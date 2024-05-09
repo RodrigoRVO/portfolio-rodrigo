@@ -528,11 +528,12 @@ button:active {
     .sobre-mim-div {
         display: flex;
         flex-direction: column;
+        height: 130vh;
     }
 
     .sobre-mim {
         width: 100%;
-        height: 2500px;
+        height: 3000px;
     }
 
     .foto-rodrigo-div {
